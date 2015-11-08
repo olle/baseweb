@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+* @author  Olle Törnström olle@studiomediatech.com
+* @created 2009-05-13
+* @since   2.0
+-->
+<project name="baseweb" basedir="." default="web">
+    
+    <!-- PROPERTIES -->
+    
+    <property name="build.dir" value="${basedir}/output"/>
+    <property name="local" value="default"/>
+    <property name="web.dir" value="${basedir}/web"/>
+    <property name="test.dir" value="${basedir}/test"/>
+    <property name="lib.dir" value="${basedir}/lib"/>
+    
+    <!-- MACROS -->
+    
+    <macrodef name="phpunit">
+        <attribute name="file"/>
+        <attribute name="testcase"/>
+        <sequential>
+            <exec executable="php"
+             searchpath="true"
+             output="phpunit-output.txt">
+                <arg value="-d"/>
+                <arg value="safe_mode=Off"/>
+                <arg value="-d"/>
+                <arg value="include_path=.:${web.dir}:${lib.dir}/php"/>
+                <arg value="${lib.dir}/php/phpunit.php"/>
+                <arg value="@{testcase}"/>
+                <arg value="@{file}"/>
+            </exec>
+            <loadfile property="phpunitresults" srcFile="phpunit-output.txt"/>
+            <delete file="phpunit-output.txt" quiet="true"/>
+            <fail message="PHPUnit failed: ${phpunitresults}">
+                <condition>
+                    <or>
+                        <matches pattern="FAILURES"
+                         string="${phpunitresults}"/>
+                        <matches pattern="Fatal error:"
+                         string="${phpunitresults}"
+                         multiline="true"/>
+                        <matches pattern="Parse error:"
+                         string="${phpunitresults}"
+                         multiline="true"/>
+                    </or>
+                </condition>
+            </fail>
+            <echo>PHPUnit: OK ${phpunitresults}</echo>
+        </sequential>
+    </macrodef>
+    
+    <!-- TARGETS -->
+    
+    <target name="build" depends="clean, test" description="Builds the artifacts for this project.">
+        <property name="target.dir" value="${build.dir}/baseweb"/>
+        <mkdir dir="${target.dir}"/>
+        <copy todir="${target.dir}/">
+            <fileset dir="${basedir}/web/baseweb">
+                <exclude name="**/.tmp*"/>
+            </fileset>
+        </copy>
+        <copy todir="${target.dir}" overwrite="true" failonerror="false">
+            <fileset dir="${basedir}/local/${local}">
+                <exclude name="**/.tmp*"/>
+                <exclude name="**/build.properties"/>
+            </fileset>
+        </copy>
+    </target>
+    
+    <target name="web" depends="build" description="Builds the Baseweb web">
+    	<property name="web.target.dir" value="${build.dir}/public_html" />
+		<mkdir dir="${web.target.dir}" />
+		<move file="${target.dir}" todir="${web.target.dir}" />
+        <copy todir="${web.target.dir}/">
+            <fileset dir="${basedir}/web">
+                <exclude name="**/.tmp*"/>
+            </fileset>
+        </copy>
+        <copy todir="${web.target.dir}" overwrite="true" failonerror="false">
+            <fileset dir="${basedir}/local/web">
+                <exclude name="**/.tmp*"/>
+            </fileset>
+        </copy>		
+    </target>
+    
+    <target name="clean" description="Cleans out all the built artefacts">
+        <delete dir="${build.dir}"/>
+    </target>
+    
+    <target name="test" description="Runs the PHPUnit tests in this project." unless="skipTest">
+        <phpunit testcase="BasewebTestSuite" file="${test.dir}/BasewebTestSuite.php"/>
+    </target>
+    
+</project>

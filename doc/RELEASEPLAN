@@ -1,0 +1,41 @@
+/*
+ * Copyright (c) Olle Törnström studiomediatech.com 2008-2009
+ *
+ * THIS CODE IS PROPRIETARY AND PROTECTED BY COPYRIGHT LAW AGAINST COPYING,
+ * RE-DISTRIBUTION, PUBLISHING OR DE-COMPILATION WITHOUT THE PRIOR WRITTEN
+ * CONSENT OF THE AUTHOR. USAGE IS CONTROLLED BY A LICENSE AGREEMENT,
+ * REGULATING THE SPECIFIC, UNIQUE, NON EXCLUSIVE RIGHTS TO RUN, USE OR
+ * INCLUDE THE CODE IN WHOLE, PART, COMPILED OR DECOMPILED FORM.
+ */
+/**
+ * @author Olle Törnström olle@studiomediatech.com
+ * @since 2.1
+ * @created 2009-09-25
+ */
+
+ v.2.1: [Planned for: 2009-11]
+ 	Modules:
+ 		Page	New, simple page content editing in slots with TinyMCE.
+ 		Media	New, simple media handling and mini-browser.
+	 	Cache	New, page-cache with global time configuration.
+
+	 	Staff	Updated with image selection using mini-browser.
+	 	News	Updated to use TinyMCE for text body editing.
+
+	Other:
+		Price	Project and product pricing policies.				 	
+		Web		New, www.baseweb.se product page with screenshots and product
+				information and pricing - basically for sales pitches.
+				
+ 
+ v.2.0: [Released]
+ 	Modules:
+ 		Staff	New, first version of staff management.
+ 		News	New, firt version of news management.
+	 	RSS		New, feed enabled from the News function.
+	 	
+	Other:
+		Deploy	Build and deploy system that enables localized setups for each
+				customer. Builds a release with only the modules the customer
+				have choosen to use (or paid for).
+ 		
