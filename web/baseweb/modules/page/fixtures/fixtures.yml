@@ -1,0 +1,13 @@
+Article:
+  Article_1:
+    content: Hello World!
+
+Slot:
+  Slot_1:
+    address: /index.php
+    name: main
+    Article: Article_1
+
+  Slot_2:
+    address: /index.php
+    name: sub

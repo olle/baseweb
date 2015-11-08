@@ -1,0 +1,48 @@
+.source-view h2 {
+	text-transform: uppercase;
+	color: #aaa;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+	font-size: .87em;
+	margin: 1ex;
+}
+
+.source-view li {
+	clear: left;
+	font-size: .9em;	
+	padding: 3px 3px 3px 0;
+	margin: 0;
+	line-height: 1.5em;
+	height: 1.5em;
+}
+
+.source-view li.inactive,
+.source-view li.inactive input {
+	color: #c99;
+	color: rgba(200, 0, 0, 0.5);
+}
+
+.source-view li.inactive img {
+	filter: alpha(opacity = 30);
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+}
+
+.source-view li.selected {
+	font-weight: bold;
+	color: #fff;
+	background: #a2b1d0 url(../img/bg_list_selected.png) left bottom repeat-x;
+}
+
+.source-view li:hover {
+	cursor: pointer;
+	background: #a9bed9 url(../img/bg_list_hover.png) left bottom repeat-x;
+}
+
+.source-view li > img {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 2px .5ex 0 16px;
+	vertical-align: baseline;
+}

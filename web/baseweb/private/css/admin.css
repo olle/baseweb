@@ -1,0 +1,31 @@
+.admin {
+	padding: 10px 15px 0 15px;
+	margin: 20px;
+	background: url(../img/bg_form_top_gradient.png) left top repeat-x;
+}
+
+.admin h1 {
+	font-size: inherit;
+	text-transform: uppercase;
+	margin: 0 0 2ex;
+}
+
+dl.installations {
+	
+}
+
+.installations dt {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #aaa;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .3);
+	margin-bottom: .2em;
+}
+.installations dt:after {
+	content: ':';
+}
+
+.installations dd {
+	text-indent: 1em;
+	margin-bottom: 1ex;
+}

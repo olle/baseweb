@@ -1,0 +1,13 @@
+Visitor:
+  Visitor_1:
+    sid: a63fa63fa63fa63fa63fa63fa63fa63f
+    ip: 127.0.0.1
+    archived: true
+    
+Track:
+  Track_1:
+    visitor_id: 1
+    archived: true
+  Track_2:
+    visitor_id: 1
+    archived: true

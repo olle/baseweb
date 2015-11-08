@@ -1,0 +1,17 @@
+#simplemodal-overlay {
+    background-color: #000;
+    cursor: wait;
+}
+
+#simplemodal-container {
+    width: 600px;
+    background-color: #eee;
+    border: 8px solid #ddd;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+	border-radius: 16px;
+}
+
+#simplemodal-container a.modalCloseImg {
+	display: none;
+}

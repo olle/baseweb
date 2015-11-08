@@ -1,0 +1,17 @@
+.help h1 {
+	font-size: 17px;
+	text-transform: uppercase;
+	margin: 0 0 1em;
+	color: #555;
+}
+
+.help h2 {
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 0 0 .3em;
+}
+
+.help p {
+	line-height: 1.3em;
+	margin: 0 0 .5em;
+}

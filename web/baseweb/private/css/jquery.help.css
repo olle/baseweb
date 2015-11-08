@@ -1,0 +1,26 @@
+#help-overlay {
+	background-color: #000;
+	filter: alpha(opacity = 50);
+	-moz-opacity: .5;
+	-khtml-opacity: .5;
+	opacity: .5;
+}
+#help-container {
+	background: #f1f1f1 url(../img/icons/ico_help_large.png) 20px 20px no-repeat;
+	width: 550px;
+	height: 480px;
+	padding-left: 100px;
+	border: 3px solid #ccc;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#help-container .text {
+	margin: 20px 10px 0 0;
+}
+
+#help-container .buttons {
+	position: absolute;
+	bottom: 20px;
+}

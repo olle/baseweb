@@ -1,0 +1,48 @@
+.department, .employee, .sub-list {
+	padding: 10px 15px 0 15px;
+	margin: 20px;
+	background: url(../img/bg_form_top_gradient.png) left top repeat-x;
+}
+
+.employees li img {
+	background: url(../img/icons/38.png) left top no-repeat;
+}
+
+.employees li.inactive img {
+	background: url(../img/icons/38-red.png) left top no-repeat;
+}
+
+.departments li img {
+	background: url(../img/icons/27.png) left top no-repeat;
+}
+
+.employees li.inactive,
+.departments li.inactive {
+	color: rgba(200, 0, 0, 0.5);
+}
+
+.employees li.inactive img,
+.departments li.inactive img {
+	filter: alpha(opacity = 40);
+	-moz-opacity: 0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+}
+
+form.add-membership fieldset {
+	display: inline;
+	vertical-align: middle;	
+}
+
+form.add-membership input[type="text"] {
+	width: 40ex;
+}
+
+form.add-membership .buttons {
+	position: relative;
+	top: -3px;
+}
+
+#membership-list .sorting {
+	margin-right: 5px;
+}

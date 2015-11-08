@@ -1,0 +1,54 @@
+body, td {
+    font-family: "lucida grande", arial, helvetica, verdana, sans-serif;
+    color: #444;
+    font-size: inherit;
+}
+
+pre {
+    font-family: courier-new, courier, monospace;
+    font-size: inherit;
+    color: #444;
+}
+
+body {
+    background: #fff url(../img/forms/bg_input_fade_transp.png) left top repeat-x;
+}
+
+body.edited {
+	background-color: #e7d4a1;
+}
+
+h1 {
+    font-size: 1.5em
+}
+
+h2 {
+    font-size: 1.5em
+}
+
+h3 {
+    font-size: 1.17em
+}
+
+h4 {
+    font-size: 1em
+}
+
+h5 {
+    font-size: .83em
+}
+
+h6 {
+    font-size: .75em
+}
+
+/* IE */ * html body {
+    scrollbar-3dlight-color: #F0F0EE;
+    scrollbar-arrow-color: #676662;
+    scrollbar-base-color: #F0F0EE;
+    scrollbar-darkshadow-color: #DDD;
+    scrollbar-face-color: #E0E0DD;
+    scrollbar-highlight-color: #F0F0EE;
+    scrollbar-shadow-color: #F0F0EE;
+    scrollbar-track-color: #F5F5F5;
+}

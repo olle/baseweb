@@ -1,0 +1,67 @@
+
+.source-view {
+	background: #dedde3;
+	width: 300px;
+}
+
+.source-view {
+	zoom: 1;
+	position: fixed;
+	top: 114px; /* sum of headers */
+	bottom: 0;
+	border-right: 1px solid #aaa;
+	overflow-y: scroll;
+}
+
+.content-list {
+	background: #dedde3;
+	height: 180px;
+	overflow-y: scroll;
+}
+
+.wide.content-list {
+	left: 0;
+}
+
+.separator {
+	zoom: 1;
+	position: fixed;
+	top: 294px;
+	left: 0;
+	right: 0;
+	height: 8px;
+	border-top: 1px solid #8e9394;
+	border-bottom: 1px solid #8e9394;
+	background: url(../img/bg_submenygradient.png) left top repeat-x;
+}
+
+.wide.separator {
+	left: 0;
+}
+
+/*
+ CONTENT VIEW
+ */
+.content-view {
+	zoom: 1;
+	background: #dedde3;
+	position: fixed;
+	top: 304px; /* sum of headers + content-list + separator + border */
+	left: 300px;
+	right: 0;
+	bottom: 0px;
+	overflow-y: scroll;
+}
+
+.high.content-view {
+	top: 114px; /* sum of headers */
+}
+
+.wide.content-view {
+	left: 0;
+}
+
+.full.content-view {
+	left: 0;
+	top: 114px;
+}

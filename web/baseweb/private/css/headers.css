@@ -1,0 +1,146 @@
+/*
+ MAIN HEADER BAR
+ */
+#header {
+	height: 76px;
+	background: url(../img/bg_topgradient_baseline.png) left top repeat-x;
+}
+
+#logo {
+	height: 76px;
+	width: 300px;
+	float: left;
+	background: url(../img/img_bwa_logo.png) 20% 70% no-repeat;
+}
+
+#logo h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+#logo h1 span {
+	position: relative;
+	left: -9000px;
+}
+
+.main-menu {
+	list-style: none;
+	list-style-position: inside;
+	list-style-image: none;
+}
+
+.main-menu li {
+	height: 76px;
+	vertical-align: middle;	
+}
+
+.main-menu li a {
+	height: 36px;
+	display: block;
+	padding: 40px 20px 0 20px;
+	text-decoration: none;
+}
+
+.main-menu li a span {
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+}
+
+.left.main-menu,
+.left.main-menu li {
+	float: left;
+}
+
+.right.main-menu,
+.right.main-menu li {
+	float: right;
+}
+
+.main-menu li a[href="/"] {
+	background: url(../img/icons/ico_exit.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/admin/"] {
+	background: url(../img/icons/ico_home.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/install/"] {
+	background: url(../img/icons/ico_install.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/update/"] {
+	background: url(../img/icons/78.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/news/"] {
+	background: url(../img/icons/ico_news.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/staff/"] {
+	background: url(../img/icons/ico_staff.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/media/"] {
+	background: url(../img/icons/40.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/page/"] {
+	background: url(../img/icons/22.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/galleries/"] {
+  background: url(../img/icons/photo.png) 50% 40% no-repeat;
+}
+
+.main-menu li a[href="/baseweb/private/tracking/"] {
+	background: url(../img/icons/75.png) 50% 40% no-repeat;
+}
+
+.main-menu li:hover {
+	background: url(../img/bg_topgradient_hover_baseline.png) left top repeat-x;
+}
+
+.main-menu li.selected, #main-menu li.selected:hover {
+	background: url(../img/bg_topgradient_selected_150.png) 50% top repeat-x;
+}
+
+/*
+ SUB HEADER BAR
+ */
+
+#sub-header {
+	background: url(../img/bg_submenygradient.png) left top repeat-x;
+	height: 38px;
+}
+
+.sub-menu {
+	list-style: none;
+	list-style-position: inside;
+	list-style-image: none;
+}
+
+.sub-menu li {
+	vertical-align: middle;
+	padding: 5px 0 0;
+}
+
+.left.sub-menu {
+	float: left;
+	margin-left: 25px;
+}
+
+.left.sub-menu li {
+	float: left;
+	margin-right: 10px;
+}
+
+.right.sub-menu {
+	float: right;
+	margin-right: 5px;
+}
+
+.right.sub-menu li {
+	float: right;
+	margin-right: 10px;
+}

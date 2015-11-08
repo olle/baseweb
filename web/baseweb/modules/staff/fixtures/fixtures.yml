@@ -1,0 +1,200 @@
+Department:
+  Department_1:
+    name: Founders
+    
+  Department_2:
+    name: Sales
+    
+  Department_3:
+    name: Production
+    
+  Department_4:
+    name: Marketing
+    
+  Department_5:
+    name: Administration
+    status: 0
+    
+  Department_6:
+    name: Management
+    
+  Department_7:
+    name: Research & Development
+
+Employee:
+  Employee_1:
+    name: Richard Swensson
+    title: CEO
+    email: rich@studiomediatech.com
+    phone: 08-123 123 234
+    mobile: 070-123 123 234
+    
+  Employee_2:
+    name: Oliver Larsson
+    title: CTO
+    email: oliver@studiomediatech.com
+    phone: 08-123 123 234
+    mobile: 070-123 123 234
+    
+  Employee_3:
+    name: Henry Lindquist
+    title: Developer
+    email: henry@studiomediatech.com
+    
+  Employee_4:
+    name: Pamela Johansson
+    title: Recruiter
+    email: pamela@studiomediatech.com
+    phone: 08-123 123 234
+    mobile: 070-123 123 234
+    
+  Employee_5:
+    name: Rodney Larsson
+    title: Sales
+    email: rodney@studiomediatech.com
+    phone: 08-123 123 234
+    mobile: 070-123 123 234
+    
+  Employee_6:
+    name: Lilly Tallberg
+    title: Developer
+    email: lilly@studiomediatech.com
+    
+  Employee_7:
+    name: Marcus Hoernestam
+    title: Developer
+    email: marcus@studiomediatech.com
+    
+  Employee_8:
+    name: Mike Leonardsson
+    title: Developer
+    email: mike@studiomediatech.com
+    status: 0
+    
+  Employee_9:
+    name: John Agren
+    title: Developer
+    email: john.agren@studiomediatech.com
+    
+  Employee_10:
+    name: John Agren
+    title: Sales
+    email: john.t.agren@studiomediatech.com
+        
+StaffMember:
+  StaffMember_1:
+    employee_id: 9
+    department_id: 6
+    title: Scrum Master
+    
+  StaffMember_2:
+    employee_id: 9
+    department_id: 7
+    
+  StaffMember_3:
+    employee_id: 8
+    department_id: 7
+    
+  StaffMember_4:
+    employee_id: 8
+    department_id: 1
+    
+  StaffMember_5:
+    employee_id: 1
+    department_id: 1
+    
+  StaffMember_6:
+    employee_id: 2
+    department_id: 1
+    
+  StaffMember_7:
+    employee_id: 3
+    department_id: 7
+    
+  StaffMember_8:
+    employee_id: 4
+    department_id: 5
+    
+  StaffMember_9:
+    employee_id: 4
+    department_id: 6
+    title: Head of HR
+    
+  StaffMember_10:
+    employee_id: 5
+    department_id: 4
+    
+  StaffMember_11:
+    employee_id: 6
+    department_id: 7
+    
+  StaffMember_12:
+    employee_id: 6
+    department_id: 6
+    title: Scrum Master
+    
+  StaffMember_13:
+    employee_id: 7
+    department_id: 7
+    
+  Staffmember_14:
+    employee_id: 7
+    department_id: 2
+    title: Technical Sales Support
+
+StaffMembers:
+  StaffMembers_1:
+    department_id: 6
+    employee_id: 9
+    
+  StaffMembers_2:
+    department_id: 7
+    employee_id: 9
+    
+  StaffMembers_3:
+    department_id: 7
+    employee_id: 8
+    
+  StaffMembers_4:
+    department_id: 1
+    employee_id: 8
+    
+  StaffMembers_5:
+    department_id: 1
+    employee_id: 1
+    
+  StaffMembers_6:
+    department_id: 1
+    employee_id: 2
+    
+  StaffMembers_7:
+    department_id: 7
+    employee_id: 3
+    
+  StaffMembers_8:
+    department_id: 5
+    employee_id: 4
+    
+  StaffMembers_9:
+    department_id: 6
+    employee_id: 4
+    
+  StaffMembers_10:
+    department_id: 4
+    employee_id: 5
+    
+  StaffMembers_11:
+    department_id: 7
+    employee_id: 6
+    
+  StaffMembers_12:
+    department_id: 6
+    employee_id: 6
+    
+  StaffMembers_13:
+    department_id: 7
+    employee_id: 7
+    
+  StaffMembers_14:
+    department_id: 2
+    employee_id: 7

@@ -1,0 +1,22 @@
+Gallery:
+  Gallery_1:
+    title: Sommarbilder
+    path: summer/
+    
+  Gallery_2:
+    title: Höstbilder
+    path: autumn/
+    
+  Gallery_3:
+    title: Vinterbilder
+    path: winter/
+    
+  Gallery_4:
+    title: Vårbilder
+    path: spring/
+
+  Gallery_5:
+    title: Nya sommarbilder
+    path: new-summer/
+    status: 0
+

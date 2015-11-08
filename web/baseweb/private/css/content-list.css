@@ -1,0 +1,59 @@
+.content-list {
+	border-bottom: 1px solid #ccc;
+}
+
+.content-list table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+}
+
+.content-list thead {
+	font-size: 11px;
+	color: #666;
+	background: url(../img/bg_list_title_gradient.png) top left repeat-x;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #aaa;
+}
+
+.content-list tbody {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.content-list th {
+	border-left: 1px solid #aaa;
+}
+
+.content-list th, .content-list td {
+	padding: 3px 0 3px 4px;
+}
+
+.content-list td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.content-list tr.inactive td {
+	color: #c99;
+	color: rgba(200, 0, 0, 0.3);
+}
+
+.content-list tr:hover td {
+	cursor: pointer;
+	background: #c6cedd url(../img/bg_list_hover.png) left bottom repeat-x;
+}
+
+.content-list tr.selected td, .content-list tr:hover.selected td {
+	font-weight: bold;
+	color: #fff;
+	background: #a2b1d0 url(../img/bg_list_selected.png) left bottom repeat-x;
+}
+
+.content-list td > img {
+	width: 16px;
+	height: 16px;
+}

@@ -1,0 +1,242 @@
+form {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+form.right {
+	float: right;
+}
+
+form.left {
+	float: left;
+}
+
+form fieldset {
+}
+
+form label {
+	clear: both;
+	text-transform: uppercase;
+	font-size: inherit;
+	font-size: .87em;
+	color: #aaa;
+	margin: 0;
+	padding: 0 0 5px 0;	
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .3);
+}
+
+form label:after {
+	content: ':';
+}
+
+form label.error:after {
+	content: '*:';
+}
+
+form input,
+form select,
+form textarea {
+	display: block;
+	background: #fff url(../img/forms/bg_input_fade_transp.png) left top repeat-x;
+	border: 1px solid #bfbfbf;
+	font: inherit;
+	font-size: .9em;
+	padding: 6px 5px 5px;
+	width: auto;
+	color: #666;
+	margin-bottom: .7ex;
+	width: 98%;
+}
+
+form input[disabled="disabled"]:hover,
+form input[disabled="disabled"]:focus,
+form textarea[disabled="disabled"]:hover,
+form textarea[disabled="disabled"]:focus {
+	
+}
+
+form input:hover,
+form textarea:hover {
+	background-color: #faffb8;
+}
+
+
+form input:focus,
+form textarea:focus {
+	background-color: #fff;
+}
+
+form input.medium,
+form select.medium,
+form textarea.medium {
+	width: 50%;
+}
+
+form input.small,
+form select.small,
+form textarea.small {
+	width: 33%;
+}
+
+form input.modified,
+form input.modified.medium,
+form input.modified.small {
+	background-color: #ffced0;
+}
+
+form input[type="hidden"] {
+	display: none;
+}
+
+form input[type="submit"] {
+}
+
+form input[type="checkbox"] {
+	width: auto;
+	display: inline;
+}
+
+form label + input[type="checkbox"] {
+	clear: both;
+	display: block;
+}
+
+form input[type="checkbox"] + label {
+}
+
+form input[type="checkbox"] + label:after {
+	content: '';
+}
+
+form .legend {
+	font: inherit;
+	font-size: .8em;
+	color: #aaa;
+}
+
+form button {
+	margin-right: 1ex;
+}
+
+form input[type="submit"] {
+	font: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	cursor: inherit;
+	width: auto;
+}
+
+/** INLINE FORM */
+
+form.inline {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+
+form.inline fieldset {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+form.inline label {
+	display: none;
+}
+
+form.inline input {
+	font: inherit;
+	border: none;
+	background: none;
+	background: url(../img/icons/pen_mini.png) left top no-repeat;
+	padding: 0 0 0 12px;
+	margin: 0;
+	width: auto;
+}
+
+form.inline input:hover {
+	background: #faffb8 url(../img/icons/pen_mini.png) left top no-repeat;
+}
+
+form.inline input:focus {
+	background: #fff url(../img/icons/pen_mini.png) left top no-repeat;
+}
+
+form.inline input.modified,
+form.inline input.modified.medium,
+form.inline input.modified.small {
+	background: #ffced0 url(../img/icons/pen_mini.png) left top no-repeat;
+}
+
+form.inline textarea {
+	display: none;
+}
+
+form.inline button {
+	display: inline;
+	float: left;
+}
+
+/** SORTING FORM */
+
+form.sorting {
+	display: block;
+	width: 23px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: none;
+}
+
+form.sorting .buttons {
+	width: 23px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+form.sorting button {
+	width: 23px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+form.sorting button span {
+	display: none;
+}
+
+form.sorting button.up {	
+	background: url(../img/buttons/up_passive.png) left top no-repeat;
+}
+
+form.sorting button:hover.up {
+	background: url(../img/buttons/up_normal.png) left top no-repeat;
+}
+
+form.sorting button.down {
+	background: url(../img/buttons/down_passive.png) left top no-repeat;
+}
+
+form.sorting button:hover.down {
+	background: url(../img/buttons/down_normal.png) left top no-repeat;
+}
+
+/** STYLING */
+
+.form-wrapper {
+	padding: 10px 15px 0 15px;
+	margin: 20px;
+	background: url(../img/bg_form_top_gradient.png) left top repeat-x;
+}

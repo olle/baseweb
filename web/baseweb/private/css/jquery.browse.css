@@ -1,0 +1,82 @@
+.browse-node,
+.browse-leaf {
+	font-size: 12px !important;
+	height: auto !important;
+}
+
+.browse-node a,
+.browse-leaf a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 0 24px;
+	margin: 0;
+	overflow: hidden;
+}
+
+.browse-node ul {
+	padding-left: 12px;
+}
+
+.browse-node a { background: url(../img/filetree/directory.png) 4px top no-repeat; }
+.browse-node.browse-node-open > a { background: url(../img/filetree/folder_open.png) 4px top no-repeat; }
+
+.browse-leaf a { background: url(../img/filetree/file.png) 4px top no-repeat; }
+.browse-leaf.extension-3gp a { background: url(../img/filetree/film.png) 4px top no-repeat; }
+.browse-leaf.extension-afp a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-afpa a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-asp a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-aspx a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-avi a { background: url(../img/filetree/film.png) 4px top no-repeat; }
+.browse-leaf.extension-bat a { background: url(../img/filetree/application.png) 4px top no-repeat; }
+.browse-leaf.extension-bmp a { background: url(../img/filetree/picture.png) 4px top no-repeat; }
+.browse-leaf.extension-c a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-cfm a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-cgi a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-com a { background: url(../img/filetree/application.png) 4px top no-repeat; }
+.browse-leaf.extension-cpp a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-css a { background: url(../img/filetree/css.png) 4px top no-repeat; }
+.browse-leaf.extension-doc a { background: url(../img/filetree/doc.png) 4px top no-repeat; }
+.browse-leaf.extension-exe a { background: url(../img/filetree/application.png) 4px top no-repeat; }
+.browse-leaf.extension-gif a { background: url(../img/filetree/picture.png) 4px top no-repeat; }
+.browse-leaf.extension-fla a { background: url(../img/filetree/flash.png) 4px top no-repeat; }
+.browse-leaf.extension-h a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-htm a { background: url(../img/filetree/html.png) 4px top no-repeat; }
+.browse-leaf.extension-html a { background: url(../img/filetree/html.png) 4px top no-repeat; }
+.browse-leaf.extension-jar a { background: url(../img/filetree/java.png) 4px top no-repeat; }
+.browse-leaf.extension-jpg a { background: url(../img/filetree/picture.png) 4px top no-repeat; }
+.browse-leaf.extension-jpeg a { background: url(../img/filetree/picture.png) 4px top no-repeat; }
+.browse-leaf.extension-js a { background: url(../img/filetree/script.png) 4px top no-repeat; }
+.browse-leaf.extension-lasso a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-log a { background: url(../img/filetree/txt.png) 4px top no-repeat; }
+.browse-leaf.extension-m4p a { background: url(../img/filetree/music.png) 4px top no-repeat; }
+.browse-leaf.extension-mov a { background: url(../img/filetree/film.png) 4px top no-repeat; }
+.browse-leaf.extension-mp3 a { background: url(../img/filetree/music.png) 4px top no-repeat; }
+.browse-leaf.extension-mp4 a { background: url(../img/filetree/film.png) 4px top no-repeat; }
+.browse-leaf.extension-mpg a { background: url(../img/filetree/film.png) 4px top no-repeat; }
+.browse-leaf.extension-mpeg a { background: url(../img/filetree/film.png) 4px top no-repeat; }
+.browse-leaf.extension-ogg a { background: url(../img/filetree/music.png) 4px top no-repeat; }
+.browse-leaf.extension-pcx a { background: url(../img/filetree/picture.png) 4px top no-repeat; }
+.browse-leaf.extension-pdf a { background: url(../img/filetree/pdf.png) 4px top no-repeat; }
+.browse-leaf.extension-php a { background: url(../img/filetree/php.png) 4px top no-repeat; }
+.browse-leaf.extension-png a { background: url(../img/filetree/picture.png) 4px top no-repeat; }
+.browse-leaf.extension-ppt a { background: url(../img/filetree/ppt.png) 4px top no-repeat; }
+.browse-leaf.extension-psd a { background: url(../img/filetree/psd.png) 4px top no-repeat; }
+.browse-leaf.extension-pl a { background: url(../img/filetree/script.png) 4px top no-repeat; }
+.browse-leaf.extension-py a { background: url(../img/filetree/script.png) 4px top no-repeat; }
+.browse-leaf.extension-rb a { background: url(../img/filetree/ruby.png) 4px top no-repeat; }
+.browse-leaf.extension-rbx a { background: url(../img/filetree/ruby.png) 4px top no-repeat; }
+.browse-leaf.extension-rhtml a { background: url(../img/filetree/ruby.png) 4px top no-repeat; }
+.browse-leaf.extension-rpm a { background: url(../img/filetree/linux.png) 4px top no-repeat; }
+.browse-leaf.extension-ruby a { background: url(../img/filetree/ruby.png) 4px top no-repeat; }
+.browse-leaf.extension-sql a { background: url(../img/filetree/db.png) 4px top no-repeat; }
+.browse-leaf.extension-swf a { background: url(../img/filetree/flash.png) 4px top no-repeat; }
+.browse-leaf.extension-tif a { background: url(../img/filetree/picture.png) 4px top no-repeat; }
+.browse-leaf.extension-tiff a { background: url(../img/filetree/picture.png) 4px top no-repeat; }
+.browse-leaf.extension-txt a { background: url(../img/filetree/txt.png) 4px top no-repeat; }
+.browse-leaf.extension-vb a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-wav a { background: url(../img/filetree/music.png) 4px top no-repeat; }
+.browse-leaf.extension-wmv a { background: url(../img/filetree/film.png) 4px top no-repeat; }
+.browse-leaf.extension-xls a { background: url(../img/filetree/xls.png) 4px top no-repeat; }
+.browse-leaf.extension-xml a { background: url(../img/filetree/code.png) 4px top no-repeat; }
+.browse-leaf.extension-zip a { background: url(../img/filetree/zip.png) 4px top no-repeat; }

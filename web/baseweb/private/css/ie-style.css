@@ -1,0 +1,49 @@
+.clearfix {
+    zoom: 1;
+	display: block;
+}
+
+button {
+    position: relative;
+    top: -2px;
+    width: auto;
+    overflow: visible;
+}
+
+button span {
+    position: relative;
+    top: 1px;
+    margin-top: 1px;
+}
+
+button.small span,
+button.small[disabled~="disabled"]:hover span {
+	margin-top: 0px;
+}
+
+button img, a.button img {
+    margin-top: 1px;
+}
+
+input[type="submit"] {
+	text-align: left;
+}
+
+.content-list table {
+	width: 98%;
+}
+
+.content-list table input {
+	font-size: 14px;
+	width: 100% !important;
+}
+
+.source-view ul li {
+	height: auto;
+}
+
+.content-list tr.inactive,
+.content-list tr.inactive input,
+.source-view li.inactive input {
+	color: #c99 !important;
+}

@@ -1,0 +1,50 @@
+#filepicker {
+	font-family: Lucida Grande;
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.picker-header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	background: #b0b0b0 url(../img/jquery.filepicker.png) top left repeat-x;
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+#picker-url {
+	text-align: left;
+	background: #fff;
+	font-family: "Lucida Grande";
+	font-size: 14px;
+	border: 1px solid #aaa;
+	border-bottom: 1px solid #ddd;
+	color: #666;
+	margin: 12px auto 0 auto;
+	padding: 3px;
+	width: 94%;
+}
+.picker-body {
+	position: absolute;
+	font-size: 12px;
+	top: 51px;
+	bottom: 21px;
+	left: 0px;
+	right: 0px;
+	overflow: scroll;
+	background: #f1f1f1;
+	border-bottom: 1px solid #424242;
+}
+.picker-footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 20px;
+	border-top: 1px solid #ddd;
+	background: #b0b0b0 url(../img/jquery.filepicker.png) top left repeat-x;	
+}

@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: "lucida grande", arial, helvetica, verdana, sans-serif;
+    color: #444;
+    background: #f1f1f1;
+	height: 100%;
+}
+
+fieldset {
+	border: none;
+}
+
+ul, li {
+	list-style: none;
+	list-style-image: none;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.error {
+	color: #d00;
+}

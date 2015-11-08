@@ -1,0 +1,21 @@
+Gallery:
+  Gallery_1:
+    title: Summer photos
+    path: summer/
+    
+  Gallery_2:
+    title: Autumn photos
+    path: autumn/
+    
+  Gallery_3:
+    title: Winter photos
+    path: winter/
+    
+  Gallery_4:
+    title: Spring photos
+    path: spring/
+
+  Gallery_5:
+    title: New summer photos
+    path: new-summer/
+    status: 0

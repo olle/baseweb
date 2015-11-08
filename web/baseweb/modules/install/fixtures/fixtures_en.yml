@@ -1,0 +1,12 @@
+Installation:
+  Installation_1:
+    key: code-copyright
+    value: Copyright (c) Olle Törnström studiomediatech.com 2008-@@year@@
+  
+  Installation_2:
+    key: design-copyright
+    value: Copyright (c) Rikke Lind hitpotential 2008-@@year@@
+  
+  Installation_3:
+    key: authors
+    value: Rikke Lind, Olle Törnström

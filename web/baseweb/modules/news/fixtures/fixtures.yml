@@ -1,0 +1,122 @@
+Newsitem:
+  Newsitem_1:
+    title: Fusce vehicula turpis eu dolor
+    body: Suspendisse tincidunt. Maecenas sit amet massa eget nisi eleifend sollicitudin. Pellentesque ac pede. Nam convallis. Maecenas enim. Proin non nibh. Mauris in est vitae orci consectetuer aliquet. Etiam suscipit, massa sit amet interdum tempus, erat quam sollicitudin tellus, quis consequat est orci et leo. Aenean ipsum quam, tempor quis, ornare non, consequat laoreet, ante. Morbi at ante ut nulla vestibulum suscipit. Fusce adipiscing, nunc id porttitor hendrerit, lacus nunc auctor risus, at ultrices lorem magna in massa. Vestibulum nec eros. Proin faucibus, nisi laoreet accumsan aliquam, justo neque gravida nunc, et condimentum ante pede fermentum nisl.
+    author: John
+    
+  Newsitem_2:
+    title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    body: Maecenas id lectus diam, laoreet accumsan eros. Vivamus nec lorem ut justo sollicitudin lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean quis tortor in ipsum porttitor lobortis. Donec dictum risus sit amet tortor interdum nec sodales neque gravida. Pellentesque dolor ante, lacinia ut egestas ut, posuere ac ante. In nec faucibus mi. Nam imperdiet sapien et urna rhoncus sodales. Integer consectetur consectetur ante vitae lacinia. In turpis dolor, accumsan cursus cursus vel, sagittis a ante. Nullam dictum ultrices turpis, a dignissim est iaculis eu. Etiam id ultricies ligula. Vestibulum sed nunc lectus, in accumsan purus. Duis id tortor leo, et laoreet sem. Fusce posuere arcu in augue blandit blandit. Praesent augue nibh, eleifend id mollis eu, tristique nec purus.
+    author: Ann
+    status: 0
+    
+  Newsitem_3:
+    title: Nam interdum tincidunt felis, convallis condimentum massa egestas sit amet.
+    body: Vestibulum porttitor lacinia laoreet. Ut vel tellus nec neque posuere tempor eget in quam. Cras ornare felis quis mi ultricies non eleifend lectus hendrerit. Vivamus eu libero non libero elementum pulvinar. Donec magna ligula, auctor sed ornare sed, varius sit amet orci. Phasellus tristique viverra orci sit amet pulvinar. Nunc nec turpis iaculis mi ullamcorper sodales sit amet vitae justo. Fusce luctus convallis nunc, sit amet pulvinar augue sagittis et. Suspendisse fermentum leo ac tortor feugiat vestibulum. Integer tempus purus at mauris porta posuere. Curabitur sit amet ipsum elit. Nulla id tortor commodo nisi pharetra feugiat a at felis.
+    author: Ann
+    
+  Newsitem_4:
+    title: Maecenas in lectus vel lectus molestie hendrerit vel sit amet massa.
+    body: Proin eu lacus tortor, nec varius urna. Nam at facilisis libero. Suspendisse dictum nisl arcu, in egestas sapien. Vestibulum euismod lobortis bibendum. Aliquam facilisis semper odio sit amet gravida. Pellentesque tempus nunc quis dolor dictum accumsan id at justo. Maecenas commodo euismod erat, luctus consectetur est eleifend ut. Nulla facilisi. Mauris volutpat pretium posuere. Phasellus cursus porta orci id lacinia. Nunc ante massa, convallis non ultricies non, porttitor quis nunc. Nulla facilisi. Sed sed vulputate mauris. Aenean sem est, lobortis nec aliquet sed, aliquet id tortor. Curabitur condimentum, velit posuere dapibus ullamcorper, enim sem placerat nibh, in commodo diam ante in dolor. Proin ante odio, scelerisque eget dignissim ut, tincidunt sit amet odio. Quisque pulvinar est quis urna tincidunt eu ultrices arcu accumsan. Etiam tellus lacus, varius ut dapibus nec, sollicitudin in ipsum.
+    author: Peter
+    
+  Newsitem_5:
+    title: Nam in nibh ut dui lacinia volutpat in vel lorem.
+    body: Donec a metus non risus laoreet mattis in at nisi. Nunc non malesuada sem. Phasellus est erat, pretium eget gravida et, dignissim elementum enim. Curabitur tincidunt faucibus aliquet. Fusce mi risus, sodales nec sodales id, laoreet quis nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tellus nulla, dapibus ut laoreet a, iaculis in nisi. Maecenas sagittis nisl vel mi pharetra ut rutrum mi ullamcorper. Etiam et tellus eget augue auctor luctus sed ut diam. Maecenas vel nulla in arcu rutrum feugiat sed eget est. Quisque facilisis sem vel nunc pharetra ut blandit diam ornare. Etiam feugiat massa lacinia libero aliquet ut euismod quam auctor.
+    author: John
+
+  Newsitem_6:
+    title: Fusce sed orci augue. Donec id nunc nunc.
+    body: Vestibulum eget nunc lorem, eu faucibus arcu. Duis nec mi vel urna pretium feugiat. Nulla quis magna vitae mauris malesuada feugiat. In ut lectus vitae quam volutpat euismod. Ut a faucibus quam. Etiam elementum eros vel erat mollis eget elementum dui tristique. In ut eros vitae neque porttitor laoreet. Donec at felis nunc, at pulvinar arcu. Phasellus at erat arcu, vel convallis ipsum. Nulla ullamcorper lacinia consectetur.
+    author: Peter
+    status: 0
+    
+  Newsitem_7:
+    title: Nullam pretium pulvinar nulla id ornare.
+    body: Integer placerat dui sed orci eleifend imperdiet. Nulla malesuada ornare nisl, vitae convallis enim accumsan in. Donec nibh erat, molestie id tincidunt nec, eleifend non turpis. Nam sed nibh purus, vitae rutrum mauris. Aenean rhoncus laoreet mi, vel varius diam euismod ac. Donec id facilisis lorem. Mauris eleifend leo a libero ullamcorper at laoreet velit laoreet. Phasellus ut placerat magna. Sed ac risus tortor, vel accumsan est. Pellentesque lorem dui, condimentum sit amet eleifend et, aliquam vel tortor.
+    author: Ann
+    
+  Newsitem_8:
+    title: Sed quis nisl eget sapien bibendum rutrum nec eu nisi.
+    body: Suspendisse potenti. Vestibulum blandit eros in odio commodo sed dignissim risus consectetur. Etiam elit est, cursus ac ullamcorper posuere, posuere non erat. Donec molestie odio ut orci feugiat iaculis a sed nunc. Donec aliquam, tellus quis dignissim lacinia, nibh ipsum molestie sem, eget vehicula tellus tortor a dui. Donec ornare velit nulla, ac adipiscing felis. Fusce gravida vehicula orci, et eleifend quam dictum sed. Duis vitae erat magna, vitae blandit nunc. Curabitur laoreet rhoncus sapien, et tempor erat volutpat ac. Curabitur at felis vitae enim viverra congue. In sollicitudin urna enim. Donec pulvinar, nulla ut sagittis volutpat, urna diam luctus odio, a euismod sapien risus eget neque.
+    author: Webster
+    
+  Newsitem_9:
+    title: Phasellus tortor dolor, lacinia nec condimentum ultricies, sodales at nunc
+    body: Quisque eleifend, magna eu elementum aliquam, justo urna dictum libero, id porttitor libero urna a odio. Suspendisse lacinia pellentesque nunc, sollicitudin sollicitudin risus vulputate vitae. Mauris pellentesque bibendum varius. Pellentesque urna lacus, vestibulum eu feugiat id, gravida ac orci. Duis consequat consectetur congue. Nulla gravida suscipit mattis. Fusce enim diam, iaculis id mollis vehicula, auctor non sem. Pellentesque venenatis commodo massa, et cursus tellus viverra bibendum. Curabitur eget massa vel lorem tincidunt facilisis. Donec ligula arcu, consequat quis blandit id, gravida quis leo. Suspendisse imperdiet tellus id quam sollicitudin pellentesque. Mauris mattis mi vel tortor adipiscing sed vulputate eros ullamcorper. Quisque laoreet varius nisi ac tempus. Quisque posuere, quam vitae congue faucibus, elit libero ultricies lacus, a accumsan arcu neque et nisl. Suspendisse vel hendrerit sem.
+    author: Mike
+    
+  Newsitem_10:
+    title: Fusce porta semper sagittis. Mauris accumsan nulla posuere ipsum tempor lobortis.
+    body: Mauris fringilla rhoncus lectus. Proin vitae ultrices est. Aenean luctus, risus interdum facilisis vehicula, enim enim molestie mi, id pulvinar diam nibh ut erat. Quisque viverra nisi eget metus dapibus sed eleifend velit tempus. Proin id dolor vel elit ornare feugiat. Fusce dui libero, sollicitudin id aliquam vel, tincidunt sed dolor. Praesent sagittis consequat sollicitudin. Donec sed est ac metus auctor tincidunt. Curabitur in mattis elit. Praesent feugiat risus vitae metus sagittis cursus. Vestibulum et nulla nunc. Pellentesque iaculis sagittis lacus quis accumsan. Donec scelerisque nisi at dui eleifend egestas. Suspendisse ut turpis eros. Morbi sodales mi at felis luctus sed tempus tellus interdum. Nullam posuere fermentum diam ut porta.
+    author: Fiona
+    
+  Newsitem_11:
+    title: Aenean non varius metus.
+    body: Vestibulum interdum enim vel lorem varius cursus. Maecenas pulvinar arcu ac mi adipiscing malesuada. Pellentesque felis turpis, auctor sit amet laoreet ac, tristique quis sem. Suspendisse id nulla at sapien dignissim hendrerit. Etiam tristique libero quis urna luctus a sollicitudin est commodo. Donec cursus elit in erat sagittis non interdum massa feugiat. Etiam aliquam facilisis risus, sed iaculis lacus ornare eu. Phasellus commodo, purus eget lacinia molestie, quam lectus placerat eros, sed semper erat risus ac leo. Mauris libero neque, scelerisque sed aliquam sit amet, lacinia sit amet arcu. Phasellus in velit mi, a convallis odio. Suspendisse potenti. Donec fringilla sagittis adipiscing.
+    author: Mike
+    
+  Newsitem_12:
+    title: Vestibulum turpis nunc, convallis eget aliquet eleifend, facilisis quis diam.
+    body: Nunc semper luctus lacus non dictum. Vivamus quis dictum eros. Nunc sagittis odio eget justo lacinia quis rhoncus neque euismod. Proin est nibh, tempor ut commodo luctus, eleifend quis justo. Mauris volutpat pharetra sem, ac dictum metus ultricies id. Aenean dapibus, neque id tincidunt aliquet, velit augue elementum ligula, ac aliquam purus ante vel nulla. Sed ac quam quam, id mollis nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur quis faucibus arcu. Proin at arcu vel libero elementum dapibus sit amet vel risus.
+    author: Sarah
+    
+  Newsitem_13:
+    title: In hac habitasse platea dictumst.
+    body: Nam nec velit a metus lobortis tristique ut id lacus. Vestibulum ultricies tincidunt mi et dictum. Duis sit amet augue ac ligula porta accumsan quis non eros. Integer luctus libero id est euismod eu commodo sem varius. Etiam et velit at sem molestie vehicula ut fermentum nisi. Vivamus quam erat, gravida sit amet venenatis tincidunt, sodales malesuada risus. Pellentesque non leo arcu. Etiam sit amet convallis enim. Proin laoreet, odio tincidunt rhoncus placerat, turpis libero laoreet felis, et dapibus eros orci sit amet turpis. Curabitur aliquam sapien quis erat malesuada at ullamcorper enim vulputate. Morbi pellentesque, mauris ut malesuada venenatis, tellus quam mattis ipsum, ut faucibus sem lectus eu turpis. Phasellus tortor urna, dictum et convallis quis, fermentum eget metus. Pellentesque eget nulla ipsum, vel lacinia augue.
+    author: Birger
+    
+  Newsitem_14:
+    title: Etiam accumsan, arcu quis venenatis eleifend, lectus turpis dapibus eros, non condimentum mauris sapien in sem.
+    body: Duis et nibh sed sapien posuere facilisis non vitae risus. Integer pellentesque diam non neque tempus vitae sagittis massa ultrices. Sed sollicitudin justo a est hendrerit cursus. Pellentesque egestas, dui at gravida interdum, turpis dui egestas diam, in sodales velit mi in risus. Integer dolor odio, aliquam id rutrum id, aliquet id leo. Aliquam gravida justo sit amet libero commodo ac venenatis elit mollis. Donec eu nisi et mauris tincidunt lobortis. Aenean id ligula mauris. In vestibulum magna non magna ultrices rhoncus. Suspendisse non viverra libero. In tincidunt lacus vel massa mattis dignissim. Aliquam enim ligula, blandit non rhoncus a, cursus non odio. Proin lacus urna, aliquet eget pretium nec, fringilla lacinia tortor. Ut sit amet nunc ligula.
+    author: Johan
+    
+  Newsitem_15:
+    title: Ut luctus tempus faucibus.
+    body: Vivamus et porta quam. Phasellus vel mauris at nunc semper fermentum nec at dui. Suspendisse augue dolor, dignissim at semper sit amet, laoreet eget turpis. Aliquam tempus, mauris sit amet aliquam iaculis, velit nisi pulvinar odio, eu lobortis est arcu non arcu. Mauris sagittis erat vel diam egestas lobortis. Integer et neque nibh, ac mattis dui. In rutrum orci non ligula varius ut dignissim ligula cursus. Vestibulum nulla arcu, consectetur et porttitor sit amet, iaculis sit amet leo. Ut accumsan sapien libero, vel adipiscing dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas elementum, nulla nec tincidunt hendrerit, arcu leo tempor magna, eget eleifend lectus dui ac nisi. Aliquam facilisis vehicula turpis vel lacinia. Etiam condimentum, sapien ac suscipit cursus, nisl metus semper augue, et tincidunt felis odio at massa. Nunc nec augue ornare est sagittis condimentum vitae ultrices velit. Aliquam ultricies feugiat tellus sit amet luctus. Quisque feugiat mollis vehicula. Etiam vulputate auctor sem, sit amet laoreet sem consequat lobortis.
+    author: Freddy
+    
+  Newsitem_16:
+    title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    body: Phasellus neque mi, tincidunt sit amet condimentum ut, imperdiet nec tortor. Vivamus a lacus non nisl semper pellentesque sit amet in eros. Nulla tempus, eros at cursus euismod, tortor turpis suscipit turpis, a cursus nibh diam sit amet eros. In id dignissim ligula. Proin in mauris elit, at commodo sapien. Phasellus eget nisi dui, nec pellentesque tortor. Nulla feugiat egestas magna et dapibus.
+    author: Jack
+    
+  Newsitem_17:
+    title: Mauris tortor tellus, consequat id egestas nec, eleifend ut sapien.
+    body: Nulla porttitor porta risus, a imperdiet urna suscipit sed. Praesent non molestie elit. Maecenas turpis erat, luctus id feugiat vitae, vestibulum eget eros. Phasellus mollis, ligula eu vulputate fermentum, dui arcu semper diam, sit amet pharetra erat sem non diam. Sed et magna leo, sit amet suscipit turpis. Mauris cursus, metus ac facilisis aliquet, massa nunc luctus quam, ut porta odio tellus quis tortor. Integer bibendum ligula ut purus fringilla ultrices. Morbi rutrum aliquam sem sit amet facilisis. Sed lobortis quam at libero ullamcorper tempor et pharetra felis. In ante libero, iaculis ut ultrices eget, iaculis nec velit. Ut nec erat metus.
+    author: Sarah Parker
+    
+  Newsitem_18:
+    title: Integer molestie posuere bibendum.
+    body: Fusce porta consectetur volutpat. Fusce dictum, nisl quis tincidunt venenatis, nisl purus posuere ligula, ac ornare tortor urna sit amet purus. Mauris sit amet laoreet odio. Aenean aliquet purus vitae nibh tincidunt luctus at a turpis. Fusce at lobortis enim. Sed ultricies posuere libero, id lobortis ipsum rutrum tempus. Praesent sed erat vitae tellus congue volutpat vel nec urna. Vivamus nec ullamcorper felis. Curabitur ante mauris, volutpat vel pharetra in, rhoncus sed tortor. Pellentesque quis nisi eu quam tempus ultricies. Morbi tincidunt nulla ac justo pharetra consequat at eu tellus. Nunc varius tristique pretium. Quisque at dui dui, sit amet lobortis tellus. Quisque pellentesque molestie metus eu vehicula. Maecenas eu ultricies justo. Vivamus quis dolor id dolor scelerisque convallis eu id orci. Sed congue mi eu ligula condimentum quis mollis tortor pretium. Vivamus tellus nibh, vestibulum congue interdum eget, tristique nec diam. Praesent sit amet elit neque, nec accumsan ipsum.
+    author: Sarah Parker
+    
+  Newsitem_19:
+    title: Integer lacinia sagittis sapien egestas tempus.
+    body: Cras luctus lorem in nulla egestas in sodales elit cursus. Morbi porttitor facilisis nulla, vitae fermentum arcu pulvinar ut. Sed bibendum laoreet risus, at faucibus turpis feugiat in. Morbi faucibus dignissim interdum. In sed ligula sit amet nunc interdum aliquet a at risus. Morbi porta leo ut erat consequat blandit. Praesent dapibus diam vitae massa cursus eu mattis tortor cursus. Sed egestas ante quis urna fringilla at aliquam mauris tincidunt. Donec nec orci augue. Quisque id orci urna, vitae auctor ligula. Donec metus massa, elementum id consectetur sed, luctus blandit dolor. In euismod felis elit. Quisque eget venenatis mi. Nullam mi enim, tincidunt non faucibus vitae, interdum eu dui. Cras quis pulvinar lacus. Vestibulum ut neque sed quam vulputate semper nec volutpat tellus.
+    author: Birger
+    
+  Newsitem_20:
+    title: Mauris mollis dapibus magna, in lacinia turpis viverra non.
+    body: Phasellus mollis dolor in urna dictum varius. Suspendisse potenti. Suspendisse convallis blandit augue, at tristique libero varius a. Mauris diam eros, tincidunt eu luctus eu, condimentum viverra velit. Donec vitae purus vitae felis vulputate scelerisque non a elit. Ut vel felis nibh, in blandit urna. Aenean eleifend pharetra ante tincidunt pellentesque. Aliquam semper, leo vitae feugiat faucibus, massa metus porta diam, eu dignissim mauris ipsum at risus. Morbi rutrum, est at pellentesque bibendum, purus ipsum condimentum ipsum, nec pulvinar neque est a massa. Nulla mollis lacus nec justo pretium quis venenatis eros pharetra.
+    author: Jack Stalky
+    
+  Newsitem_21:
+    title: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    body: Duis suscipit odio et libero blandit porttitor. Etiam nec metus odio, eget fermentum lorem. Etiam id tellus ut est ornare volutpat. Praesent ullamcorper, nibh eget tincidunt iaculis, diam ante sollicitudin lacus, eu vulputate elit diam sed mauris. Cras nec orci non leo congue interdum in sodales dui. Suspendisse commodo feugiat ipsum, non commodo nisl volutpat id. Proin semper erat ut orci fermentum pellentesque. Morbi elementum faucibus velit ac aliquam. Proin eu commodo lectus. Quisque ultricies diam ac lacus imperdiet ac lacinia odio consequat. Sed sit amet lectus et neque rutrum tempus id sodales mi. Aenean et ipsum diam. Pellentesque ultricies lobortis eros a consectetur. Suspendisse nec lacus purus, ut commodo tellus.
+    author: Sarah Parker
+    
+  Newsitem_22:
+    title: Donec eros ante, vulputate pulvinar condimentum sed, posuere eu tellus.
+    body: Maecenas vitae enim vel nisl pretium bibendum. Curabitur sed nulla ac lectus pretium tempor. Maecenas odio leo, euismod at blandit ut, consequat et est. Donec dolor nisl, scelerisque vitae consequat id, mollis sed libero. Suspendisse lobortis sagittis mauris in ornare. Nam eleifend, diam et vulputate consectetur, nunc ante faucibus erat, quis ultricies justo purus non tortor. Pellentesque ac diam elit. Sed quam massa, condimentum mollis egestas ac, molestie quis tellus. Mauris tincidunt justo eu erat sagittis sit amet ullamcorper tellus cursus. Maecenas aliquam enim vel ipsum facilisis a vulputate neque tincidunt.
+    author: Peter Parker
+    
+  Newsitem_23:
+    title: Quisque sit amet lorem in sem pretium ullamcorper fringilla id lectus.
+    body: Pellentesque non leo at dolor pellentesque mattis quis nec odio. Pellentesque consectetur nunc at purus tempus non scelerisque quam congue. Phasellus venenatis bibendum lacus, sit amet semper sem accumsan id. Cras neque ipsum, consequat ac cursus et, rhoncus vel est. Proin ac velit diam, a lobortis neque. Pellentesque urna odio, vulputate vitae consectetur at, varius quis dui. Nullam fermentum, erat semper rhoncus vestibulum, magna lacus vestibulum justo, in hendrerit ante metus ut nisl. Etiam mollis vestibulum diam, eu tincidunt nisl rutrum sed. Aliquam consectetur blandit accumsan. Aenean lorem neque, sagittis a convallis vitae, ultricies vitae arcu. Integer sit amet velit erat, vitae aliquet diam. In quis tellus ante, nec malesuada justo. Maecenas felis odio, scelerisque quis tincidunt quis, venenatis sit amet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    author: Otto Hahn
+    
+  Newsitem_24:
+    title: Etiam sit amet convallis enim.
+    body: Proin laoreet, odio tincidunt rhoncus placerat, turpis libero laoreet felis, et dapibus eros orci sit amet turpis. Curabitur aliquam sapien quis erat malesuada at ullamcorper enim vulputate. Morbi pellentesque, mauris ut malesuada venenatis, tellus quam mattis ipsum, ut faucibus sem lectus eu turpis. Phasellus tortor urna, dictum et convallis quis, fermentum eget metus. Pellentesque eget nulla ipsum, vel lacinia augue.
+    author: Beatrix Potter

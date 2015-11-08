@@ -1,0 +1,9 @@
+<FilesMatch "\.(sql|ini)">
+order allow,deny
+deny from all
+</FilesMatch>
+
+<FilesMatch "-admin\.php">
+order allow,deny
+deny from all
+</FilesMatch>
