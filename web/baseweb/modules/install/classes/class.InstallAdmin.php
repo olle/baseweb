@@ -14,31 +14,31 @@
  * @created 2009-05-13
  */
 class InstallAdmin extends Baseweb_AdminModule implements Ajaxable {
-	
+
 	const MODULE_NAME = 'install';
-	
+
 	// VARIABLES
-	
+
 	protected $name = self::MODULE_NAME;
 	protected $title = 'Install';
 	protected $path;
-	
+
 	// CONSTRUCTOR
-	
+
 	public function __construct() {
 		parent::__construct();
 		$this->path = dirname(__FILE__);
 	}
-		
+
 	// PUBLIC METHODS
-	
+
 	/*
 	 * @implements Installable#getModels()
 	 */
 	public function getModels() {
 		return array('Installation');
-	}	
-	
+	}
+
 	/**
 	 * @implements Servable#doGet()
 	 */
@@ -46,10 +46,10 @@ class InstallAdmin extends Baseweb_AdminModule implements Ajaxable {
 
 		if (!$result)
 			$result = new Baseweb_Result();
-			
+
 		return $result;
 	}
-	
+
 	/**
 	 * @implements Servable#doPost()
 	 */
@@ -57,84 +57,84 @@ class InstallAdmin extends Baseweb_AdminModule implements Ajaxable {
 
 		if (!$result)
 			$result = new Baseweb_Result();
-			
+
 		$action = strval($_POST['action']);
 
 		if ($action == 'install')
 			$this->_install();
 		else if ($action == 'help')
 			$result->help = $this->getHelp();
-		
+
 		return $result;
 	}
-	
+
 	public function getInstallations() {
 		return $this->storage->getInstallations();
 	}
-	
+
 	public function getInstallationsInfo() {
-		
+
 		$info = array();
-		
+
 		foreach ($this->storage->getInstallations() as $row) {
 			$info[$row->key] = $row->value;
 		}
-		
+
 		return new Baseweb_Result($info);
 	}
-	
+
 	public function setInstalledVersion($version) {
-		
+
 		$this->storage->setInstalledVersion($version);
 	}
 
 	/**
 	 * @implements Administratable#getActions()
-	 */	
+	 */
 	public function getActions() {
 		// No actions available
 	}
 
 	/**
 	 * @overrides Baseweb_AdminModule#install($addTestData);
-	 */	
+	 */
 	public function install($withFixtures) {
 
 		Baseweb::getConnection()->dropDatabase();
-		Baseweb::getConnection()->createDatabase();		
+		Baseweb::getConnection()->createDatabase();
 
-		parent::install($withFixtures);		
+		parent::install($withFixtures);
 
 		$this->storage->addInstallations($this->_getInstallationsData());
 	}
-	
+
 	/**
 	 * @overrides Baseweb_AdminModule#update($toVersion)
 	 */
 	public function update($toVersion) {
 
 		parent::update($toVersion);
-		
-		$this->storage->updateInstallations($this->_getInstallationsData());				
+
+		$this->storage->updateInstallations($this->_getInstallationsData());
 	}
-	
+
 	// PRIVATE METHODS
-	
+
 	private function _getInstallationsData() {
-		
+
 		return array(
 				'version' => Baseweb::getSettings()->APP_VERSION,
 				'web-modules' => join(',', array_keys(Baseweb::getModules())),
 				'admin-modules' => join(',', array_keys(Baseweb::getAdmins())),
-		);		
+		);
 	}
-	
+
 	private function _install() {
-		
+
 		$conf = Baseweb::getSettings();
-		
+
 		if (!@mysql_select_db($conf->DB_NAME)) {
-			mysql_query(sprintf('CREATE DATABASE IF NOT EXISTS %s', mysql_real_escape_string($conf->DB_NAME)));
+			mysql_query(sprintf('CREATE DATABASE IF NOT EXISTS %s', $conf->DB_NAME));
 			mysql_close();
 			mysql_connect($conf->DB_HOST, $conf->DB_USER, $conf->DB_PASSWORD);
 			@mysql_query("SET NAMES 'utf8'");
@@ -147,14 +147,14 @@ class InstallAdmin extends Baseweb_AdminModule implements Ajaxable {
 		foreach (Baseweb::getAdmins() as $name => $admin)
 			$admin->install(isset($_POST['testdata']) ? true : false);
 
-		mysql_query('SET FOREIGN_KEY_CHECKS = 1');		
+		mysql_query('SET FOREIGN_KEY_CHECKS = 1');
 	}
-	
+
 	/*
 	 * @implements Ajaxable#getAjaxURL()
 	 */
 	public function getAjaxURL() {
 		return '/baseweb/modules/install/install-ajax.php';
 	}
-	
+
 }

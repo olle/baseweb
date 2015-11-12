@@ -20,7 +20,6 @@ Baseweb::startCache(__FILE__);
 $news = Baseweb::getModule('news');
 $staff = Baseweb::getModule('staff');
 $page = Baseweb::getModule('page');
-$galleries = Baseweb::getModule('galleries');
 ?><?php include('header.php') ?>
 	<div id="page">
 		<?php echo $page->slot('main') ?>

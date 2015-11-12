@@ -30,6 +30,8 @@ EOD
 	php_go
 	mysql_go
 
+	baseweb_go
+
 	touch /var/lock/vagrant-provision
 }
 
@@ -112,6 +114,14 @@ mysql_go() {
 
 	service mysql restart
 	update-rc.d apache2 enable
+}
+
+baseweb_go() {
+	# ensure create mysql db
+	echo "CREATE DATABASE baseweb" | mysql -u root --password=root
+
+	# rendered php -> html-file cache
+	mkdir -p /tmp/baseweb && chmod a+rw /tmp/baseweb
 }
 
 main
